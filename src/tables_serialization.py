@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 from typing import Optional, List, Union, Literal
 from pydantic import BaseModel, Field
 from openai import OpenAI
-from src.api_requests import BaseOpenaiProcessor, AsyncOpenaiProcessor
+from src.api_req import BaseOpenaiProcessor, AsyncOpenaiProcessor
 import tiktoken
 from tqdm import tqdm
 import logging

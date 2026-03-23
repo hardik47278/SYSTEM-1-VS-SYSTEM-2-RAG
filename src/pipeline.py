@@ -11,7 +11,7 @@ from src.parsed_reports_merging import PageTextPreparation
 from src.text_splitter import TextSplitter
 from src.ingestion import VectorDBIngestor
 from src.ingestion import BM25Ingestor
-from src.questions_processing import QuestionsProcessor
+from src.question_processing_copy import QuestionsProcessor
 from src.tables_serialization import TableSerializer
 
 @dataclass
